@@ -2,7 +2,7 @@
 
 body {
     background-color: #00082F;
-
+    /* min-height: 100%; */
 }
 
 /* Navigation */
@@ -54,10 +54,11 @@ nav ul {
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 329px 0;
+    padding: 245px 0 0;
 }
 
 .contentItem {
+    background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)) ;
     padding: 2px 5px;
     color: white;
