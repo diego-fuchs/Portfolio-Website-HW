@@ -1,7 +1,8 @@
 /* Body */
 
 body {
-    font-family: aileron,sans-serif;
+    background-color: #00082F;
+
 }
 
 /* Navigation */
@@ -9,6 +10,7 @@ body {
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    padding: 0 10px;
 }
 
 div.logo {
@@ -17,58 +19,85 @@ div.logo {
     text-align: center;
 }
 
+header {
+    background-color: rgba(0, 8, 47, 0.5);
+}
+
 nav {
     width: 72%;
     padding: 1%;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
 }
 
 nav ul {
     width: 50%;
     margin-left: auto;
+    text-align: right;
 }
 
 /* Hero Image */
 
 .heroImg {
-    height: 600px;
+    height: 500px;
     padding: 25px;
 }
 
 .content {
     width: 500px;
-    height: 1500px;
+    height: 500px;
     margin: 0 auto;
     background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 310px 0;
+    padding: 329px 0;
 }
 
 .contentItem {
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)) ;
-    padding: 2px 0 19px;
+    padding: 2px 5px;
     color: white;
+}
+
+.contentItem h2 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    color: white;
+}
+
+.contentItem p {
+    font-family: aileron, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
 }
 
 button {
     background-color: #a001ce;
-    font-family: aileron,sans-serif;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 14px;
     color: white;
     padding: 5px 25px;
-
+    cursor: pointer;
 }
 
-section {
+.headerNav {
     background-image: url(/images/Diego\ Fuchs\ -\ Colour\ Pallet_Gradient.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 /* Footer */
 
 footer {
-    background-color: #373738;
-    padding: 10px 475px;
+    background-color: #00082f;
+    padding: 10px auto;
+    text-align: left;
 }
 
 footer ul {
@@ -76,6 +105,12 @@ footer ul {
     vertical-align: top;
     padding: 0 50px;
     color: white;
-    text-align: center;
-    margin: 0 20px;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer li {
+    padding: 0 20px;
 }
