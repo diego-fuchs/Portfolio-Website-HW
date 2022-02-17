@@ -58,7 +58,6 @@ nav ul {
 }
 
 .contentItem {
-    background-image: url(../images/Diego\ Fuchs\ -\ Headshot.jpg);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)) ;
     padding: 2px 5px 20px;
     color: white;
@@ -90,7 +89,7 @@ button {
 
 .headerNav {
     background-image: url(/images/Diego\ Fuchs\ -\ Colour\ Pallet_Gradient.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 /* Footer */
